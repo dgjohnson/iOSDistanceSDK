@@ -1,0 +1,11 @@
+framework module iOSDistanceSDK {
+  umbrella header "iOSDistanceSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module iOSDistanceSDK.Swift {
+    header "iOSDistanceSDK-Swift.h"
+    requires objc
+}
